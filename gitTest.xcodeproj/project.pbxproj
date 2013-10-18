@@ -18,6 +18,7 @@
 		0F1671CE1810B9C600003A89 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F1671CD1810B9C600003A89 /* Default-568h@2x.png */; };
 		0F1671D11810B9C600003A89 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1671CF1810B9C600003A89 /* MainStoryboard.storyboard */; };
 		0F1671D41810B9C600003A89 /* IPKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1671D31810B9C600003A89 /* IPKViewController.m */; };
+		0F61F9CD1810CC3D00295921 /* IPKTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F61F9CC1810CC3D00295921 /* IPKTestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		0F1671D01810B9C600003A89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0F1671D21810B9C600003A89 /* IPKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPKViewController.h; sourceTree = "<group>"; };
 		0F1671D31810B9C600003A89 /* IPKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPKViewController.m; sourceTree = "<group>"; };
+		0F61F9CB1810CC3D00295921 /* IPKTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPKTestObject.h; sourceTree = "<group>"; };
+		0F61F9CC1810CC3D00295921 /* IPKTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPKTestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 			children = (
 				0F1671C61810B9C600003A89 /* IPKAppDelegate.h */,
 				0F1671C71810B9C600003A89 /* IPKAppDelegate.m */,
+				0F61F9CB1810CC3D00295921 /* IPKTestObject.h */,
+				0F61F9CC1810CC3D00295921 /* IPKTestObject.m */,
 				0F1671CF1810B9C600003A89 /* MainStoryboard.storyboard */,
 				0F1671D21810B9C600003A89 /* IPKViewController.h */,
 				0F1671D31810B9C600003A89 /* IPKViewController.m */,
@@ -177,6 +182,7 @@
 				0F1671C41810B9C600003A89 /* main.m in Sources */,
 				0F1671C81810B9C600003A89 /* IPKAppDelegate.m in Sources */,
 				0F1671D41810B9C600003A89 /* IPKViewController.m in Sources */,
+				0F61F9CD1810CC3D00295921 /* IPKTestObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				0F1671D91810B9C600003A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
